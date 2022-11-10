@@ -1,0 +1,134 @@
+
+
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  background-color: #242424;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.row {
+  --bs-gutter-x: -6.5rem;
+  --bs-gutter-y: 0;
+  height: 8.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.container {
+  max-width: 1280px;
+    margin-top: -17rem;
+    /* display: flex; */
+    margin: 0 auto auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+.inicio {
+  margin-bottom: 2rem;
+  font-size: 3.2em;
+  margin-top: 2rem;
+  line-height: 1.1;
+  color: rgba(255, 255, 255, 0.87);
+}
+.styleFor{
+  width: 20rem;
+  margin: 0rem auto;
+}
+
+.logo {
+  width: 61%;
+  height: 39px;
+}
+
+.botao{
+  margin-top: 1rem;
+}
+
+.naoExisteMessagem {
+  margin-top: 1rem;
+  color: rgb(141, 50, 50);
+}
+
+.mb-3 {
+  margin-bottom: 0rem!important;
+}
+
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  margin-top: 28rem;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media (min-width: 576px) {
+.col-sm-3 {
+    flex: 0 0 auto;
+    height: 6rem;
+    margin: auto;
+    margin-top: 1.4rem;
+    width: 23%;
+}
+}
