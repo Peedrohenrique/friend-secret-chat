@@ -6,7 +6,7 @@ function Footer() {
         <audio
           src="https://s25.maxcast.com.br:8136/live?id=1668086756841"
           controls="controls"
-          autoplay
+          autoPlay="autoPlay"
           loop
           preload="none"
           title="Abaçaiado - O Teatro Mágico"

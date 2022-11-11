@@ -12,6 +12,10 @@ function SeedMessage() {
 
   function enviarFormulario(e) {
     e.preventDefault();
+    if (name === "" || message === "") {
+      toast.error("Preencha todos os campos!");
+      return;
+    }
     Api.post(
       "/post",
       JSON.stringify({
